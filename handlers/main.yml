@@ -1,0 +1,4 @@
+---
+# handlers file for LampStack
+- name: restart apache 
+  service: name=httpd state=restarted
